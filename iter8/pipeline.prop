@@ -1,4 +1,4 @@
-app-host: bookinfo.$NAMESPACE
+app-host: bookinfo.$NAMESPACE.demo
 app-port: 80
 app-path: productpage
 load-duration: 480

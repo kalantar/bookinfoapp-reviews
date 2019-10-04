@@ -11,7 +11,6 @@ spec:
       name: http
       protocol: HTTP
     hosts:
-#    - "bookinfo.NAMESPACE"
     - "*"
 ---
 apiVersion: networking.istio.io/v1alpha3
@@ -20,7 +19,6 @@ metadata:
   name: bookinfo
 spec:
   hosts:
-#  - "bookinfo.NAMESPACE"
   - "*"
   gateways:
   - bookinfo-gateway
